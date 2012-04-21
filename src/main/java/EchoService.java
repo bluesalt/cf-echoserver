@@ -14,7 +14,7 @@ public class EchoService {
 	private ServerSocket serverSocket;
 
 	public EchoService(int port) throws Exception {
-		serverSocket = new ServerSocket(port, 0, InetAddress.getLocalHost());
+		serverSocket = new ServerSocket(port);
 		while (true) {
 			Socket clientSocket = serverSocket.accept();
 			RequestHandler service = new RequestHandler(clientSocket);
