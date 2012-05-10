@@ -9,3 +9,5 @@ http://support.cloudfoundry.com/entries/20485171-how-to-add-a-system-service-to-
 However, it only listens on localhost. When you deploy echo service in a distributed cluster, that could cause a 
 problem.It won't work unless echoserver and dea are depoyed in the same machine.Luckily, on a line of code need to be
 modified.This project contains the modified codes.
+
+buildr is used to build the package.
