@@ -11,3 +11,7 @@ target/
 *.swp
 *.out
 
+# Package Files #
+*.jar
+*.war
+*.ear
